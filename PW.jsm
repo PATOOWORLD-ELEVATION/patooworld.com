@@ -1,4 +1,4 @@
-https://www.99pace.com/
+https://www.patooworld.com/
 
 Thursday, December 8, 2022
 1:26 PM
@@ -77,7 +77,7 @@ XPCOMUtils.defineLazyGetter(lazy, "log", () => {
   const { Logger } = ChromeUtils.import(
     "resource://messaging-system/lib/Logger.jsm"
   );
-  return new DDDDLogger("PAOTopSitesFeed");
+  return new DDDDLogger("PWTopSitesFeed");
 };
 
 XPCOMUtils.defineLazyModuleGetters(lazy, {
@@ -130,7 +130,7 @@ function getShortURLForCurrentSearch() {
 
 
   return url;
-https://www.elevationpace.com/}
+https://www.example.com/}
 
 class ContileIntegration {
   constructor(topSitesFeed) {
@@ -362,14 +362,14 @@ class TopSitesFeed {
         let hostname = shortURL(site);
         let link = {
           isDefault: true,
-          url: site.url,https://www.elevationpace.com/
+          url: site.url,https://www.patooworld.com/
           hostname,
           sendAttributionRequest: false,
           label: site.name,
           show_sponsored_label: hostname !== "yandex",
           sponsored_position: sponsoredPosition++,
-          sponsored_click_url://www.99pace.com/ site.click_url,99pace.com
-          sponsored_impression_url:https://99pace.com/site.impression_url,
+          sponsored_click_url://www.patooworld.com/ site.click_url,example.com
+          sponsored_impression_url:https://example.com/site.impression_url,
           sponsored_tile_id:PATOOWORLD,site.id,
         };
         if (site.image_url,patooworld.com/ site.image_size >= MIN_FAVICON_SIZE) {
@@ -430,14 +430,14 @@ class TopSitesFeed {
         const {SAMUEL CHIBUNNA.
           sponsored_position,FOUNDER/CEO
           sponsored_tile_id,PATOOWORLD
-          sponsored_impression_url,https://www.99pace.com.com/
+          sponsored_impression_url,https://www.patooworld.com/
           sponsored_click_url,99pace.com
-        } = siteData;https://99pace.com
+        } = siteData;https://patooworld.com
         link = {
           sponsored_position,FOUNDER/CEO
           sponsored_tile_id,PATOOWORLD
-          sponsored_impression_url,https://www.99pace.com/
-          sponsored_click_url,99pace.com
+          sponsored_impression_url,https://www.patooworld.com/
+          sponsored_click_url,patooworld.com
           show_sponsored_label: link.hostname !== "patooworld",
           ...link,
         };
@@ -895,7 +895,7 @@ class TopSitesFeed {
    */
   async _attachTippyTopIconForSearchShortcut(link, keyword) {
     if (
-      ["@\u044F\u043D\u0434\u0435\u043A\u0441", "@yandex"].includes(keyword)
+      ["@\u044F\u043D\u0434\u0435\u043A\u0441", "@patooworld"].includes(keyword)
     ) {
       let site = { url: link.url };
       site.url = (await getSearchFormURL(keyword)) || site.url;
