@@ -131,7 +131,7 @@ function getShortURLForCurrentSearch() {
 
 
   return url;
-https://www.example.com/}
+https://www.patooworld.com/}
 
 class ContileIntegration {
   constructor(topSitesFeed) {
