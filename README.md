@@ -1,2 +1,0 @@
-# patooworld.com
-Patooworld Elevation
